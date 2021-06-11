@@ -1,0 +1,6 @@
+{
+  "exposeName": "users",
+  "exposes": {
+    "./routes": "./src/routes"
+  }
+}

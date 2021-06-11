@@ -1,0 +1,12 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "start": "lerna run start --parallel",
+    "deploy:stage": "lerna run deploy:stage --parallel",
+    "compile:css": "npx tailwindcss-cli@latest build -o tailwind.css"
+  }
+}
