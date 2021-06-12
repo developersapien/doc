@@ -1,6 +1,6 @@
 {
   "name": "@doctorx/shared",
-  "version": "1.0.1",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,6 @@
   "author": "",
   "license": "ISC",
   "peerDependencies": {
-    "@doctorx/theme": "^0.0.6",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },

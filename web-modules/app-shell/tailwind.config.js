@@ -7,16 +7,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     ...doctorXtheme,
-    extend: {
-      backgroundImage: () => ({
-        "login":
-          "url('https://storage.googleapis.com/doctor-x-s.appspot.com/assets/images/login_1.png')",
-        "signIn":
-          "url('https://storage.googleapis.com/doctor-x-s.appspot.com/assets/images/login_2.png')",
-        "forgotPass":
-          "url('https://storage.googleapis.com/doctor-x-s.appspot.com/assets/images/login_3.png')",
-      }),
-    },
+    extend: {},
   },
   variants: {
     extend: {},

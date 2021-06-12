@@ -6,7 +6,10 @@
   },
   "scripts": {
     "start": "lerna run start --parallel",
+    "new-version": "lerna version --conventional-commits --yes",
     "deploy:stage": "lerna run deploy:stage --parallel",
-    "compile:css": "npx tailwindcss-cli@latest build -o tailwind.css"
+    "diff": "lerna diff",
+    "compile:css": "npx tailwindcss-cli@latest build -o tailwind.css",
+    "scope:login": "lerna run start --parallel --scope={@doctorx/shell,@doctorx/login,@doctorx/api}"
   }
 }
