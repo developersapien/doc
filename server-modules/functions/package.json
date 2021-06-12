@@ -13,8 +13,8 @@
   },
   "main": "lib/index.js",
   "dependencies": {
-    "@doctorx/shared": "^1.0.0",
-    "@doctorx/theme": "^0.0.6",
+    "@doctorx/shared": "^0.1.0",
+    "@doctorx/theme": "^0.1.0",
     "@google-cloud/storage": "^5.8.5",
     "@types/cors": "^2.8.10",
     "cors": "^2.8.5",

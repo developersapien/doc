@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@doctorx/shared": "^1.0.0",
     "lodash": "^4.17.21"
   },
   "gitHead": "23054427c6d95b460246ffb9d43d4fdc3a30dcb5"

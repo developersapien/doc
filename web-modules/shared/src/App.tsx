@@ -1,12 +1,6 @@
-import React from 'react'
-import Example from '@components/Example'
-
+import React from "react";
 const App = () => {
-  return (
-    <div>
-      <Example />
-    </div>
-  )
-}
+  return <div></div>;
+};
 
-export default App
+export default App;

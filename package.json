@@ -6,6 +6,8 @@
   },
   "scripts": {
     "start": "lerna run start --parallel",
+    "publish": "lerna publish",
+    "bootstrap": "lerna bootstrap",
     "new-version": "lerna version --conventional-commits --yes",
     "deploy:stage": "lerna run deploy:stage --parallel",
     "diff": "lerna diff",
