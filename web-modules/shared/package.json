@@ -1,6 +1,6 @@
 {
   "name": "@doctorx/shared",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -18,9 +18,9 @@
   "author": "",
   "license": "ISC",
   "peerDependencies": {
+    "@doctorx/theme": "^0.1.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "@doctorx/theme": "^0.1.0"
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.13.16",
