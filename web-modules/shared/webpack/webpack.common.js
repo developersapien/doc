@@ -37,7 +37,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, '../build'),
-    filename: `${componentExposes.exposeName}.bundle.js`,
+    filename: `shared.bundle.js`,
   },
   mode: 'development',
   plugins: [
