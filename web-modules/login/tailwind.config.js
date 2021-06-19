@@ -1,4 +1,4 @@
-const doctorXtheme = require('@doctorx/theme/doctorxTheme')
+const doctorXtheme = require('@doctorx/theme/doctorxTheme').theme
 
 module.exports = {
   prefix: 'lgn-',
@@ -11,16 +11,18 @@ module.exports = {
     extend: {
       backgroundImage: () => ({
         login:
-          "url('https://storage.googleapis.com/doctor-x-s.appspot.com/assets/images/login_1.png')",
+          "url('https://storage.googleapis.com/docx-web-stage.appspot.com/assets/images/bg_1.png')",
         signup:
-          "url('https://storage.googleapis.com/doctor-x-s.appspot.com/assets/images/login_2.png')",
+          "url('https://storage.googleapis.com/docx-web-stage.appspot.com/assets/images/bg_2.png')",
         forgotpass:
-          "url('https://storage.googleapis.com/doctor-x-s.appspot.com/assets/images/login_3.png')",
+          "url('https://storage.googleapis.com/docx-web-stage.appspot.com/assets/images/bg_3.png')",
       }),
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }

@@ -1,6 +1,6 @@
 {
   "name": "@doctorx/shell",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,14 +13,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --fix \"./src/**/*.{js,jsx,ts,tsx,json}\"",
     "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
-    "tailwind": "TAILWIND_MODE=watch NODE_ENV=development postcss tailwind.css -o ./src/styles.css -w",
+    "tailwind": "TAILWIND_MODE=watch NODE_ENV=development tailwindcss -i tailwind.css -o ./src/styles.css --watch",
     "tailwind:prod": "TAILWIND_MODE=build NODE_ENV=production postcss tailwind.css -o ./src/styles.css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@doctorx/shared": "^0.2.0",
     "@doctorx/theme": "^0.2.0",
     "@types/react-router-dom": "^5.1.7",
     "concurrently": "^6.2.0",
