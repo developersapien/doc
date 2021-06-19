@@ -2,6 +2,9 @@ const doctorXtheme = require('@doctorx/theme/doctorxTheme').theme
 
 module.exports = {
   prefix: 'lgn-',
+  corePlugins: {
+    preflight: true,
+   },
   mode: 'jit',
   // These paths are just examples, customize them to match your project structure
   purge: ['./build/*.html', './src/**/*.{js,jsx,ts,tsx,html}'],

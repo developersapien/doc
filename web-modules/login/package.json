@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"webpack serve --config webpack/webpack.config.js --env env=dev\" \"npm run tailwind\" ",
-    "build:prod": "webpack --config webpack/webpack.config.js --env env=prod",
+    "start": "concurrently \"webpack serve --config webpack/webpack.config.js --env env=dev\" \"npm run tailwind:prod\" ",
+    "build:prod": "concurrently \"npm run tailwind:prod\" \"webpack --config webpack/webpack.config.js --env env=prod\"",
     "build:stage": "webpack --config webpack/webpack.config.js --env env=stage",
     "swap-prod": "cp prod.firebase.json firebase.json",
     "swap-stage": "cp stage.firebase.json firebase.json",
@@ -13,8 +13,8 @@
     "deploy:stage": "npm run swap-stage && npm run build:stage && firebase use stage && firebase deploy --only hosting",
     "lint": "eslint --fix \"./src/**/*.{js,jsx,ts,tsx,json}\"",
     "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
-    "tailwind": "TAILWIND_MODE=watch tailwindcss -i tailwind-dev.css -o ./src/styles.css --watch",
-    "tailwind:prod": "TAILWIND_MODE=build NODE_ENV=production tailwindcss -i tailwind-prod.css -o ./src/styles.css"
+    "tailwind": "TAILWIND_MODE=watch tailwindcss -i tailwind.css -o ./src/styles.css --watch",
+    "tailwind:prod": "TAILWIND_MODE=build NODE_ENV=production tailwindcss -i tailwind.css -o ./src/styles.css"
   },
   "keywords": [],
   "author": "",
