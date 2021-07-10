@@ -1,7 +1,9 @@
 module.exports = {
   black: "#000",
   white: "#fff",
-  udoc: '#2CD889',
+  udoc: "#2CD889",
+  udocLightRed: "#FF6565",
+  udocDarkBlue: "#43425D",
   rose: {
     50: "#fff1f2",
     100: "#ffe4e6",
