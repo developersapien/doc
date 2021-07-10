@@ -1,6 +1,6 @@
 {
   "name": "@doctorx/shell",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@doctorx/theme": "^0.2.1",
+    "@doctorx/theme": "^0.2.2",
     "@types/react-router-dom": "^5.1.7",
     "concurrently": "^6.2.0",
     "react": "^17.0.2",
