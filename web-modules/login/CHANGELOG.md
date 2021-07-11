@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/developersapien/doc/compare/@doctorx/login@0.2.3...@doctorx/login@0.3.0) (2021-07-11)
+
+
+### Features
+
+* New pages added ([2ad924f](https://github.com/developersapien/doc/commit/2ad924f9a24830d503d946176f8b2624bf50a601))
+
+
+
+
+
 ## [0.2.3](https://github.com/developersapien/doc/compare/@doctorx/login@0.2.2...@doctorx/login@0.2.3) (2021-07-10)
 
 **Note:** Version bump only for package @doctorx/login
