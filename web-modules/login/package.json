@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"webpack serve --config webpack/webpack.config.js --env env=dev\" \"npm run tailwind:prod\" ",
+    "start": "concurrently \"webpack serve --config webpack/webpack.config.js --env env=dev\" \"npm run tailwind\" ",
     "build:prod": "concurrently \"npm run tailwind:prod\" \"webpack --config webpack/webpack.config.js --env env=prod\"",
     "build:stage": "webpack --config webpack/webpack.config.js --env env=stage",
     "swap-prod": "cp prod.firebase.json firebase.json",
